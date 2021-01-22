@@ -12,7 +12,8 @@
           :rows="rows"
           :lineNumbers="true"
           :search-options="{
-            enabled: true
+            enabled: true,
+            trigger: 'enter'
           }"
           :pagination-options="{
             enabled: true,

@@ -20,6 +20,7 @@
         </li>
       </ul>
       <div v-if="this.params.address.mapPosition.coordinates.length">
+        <p>Чтобы протестировать отображение карты необходимо ввести apiKey в this.data.settings</p>
         <yandex-map 
           :settings="settings"
           :coords="coords"
