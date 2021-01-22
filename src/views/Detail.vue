@@ -52,7 +52,7 @@ export default {
   data() {
     return {
       settings: {
-        apiKey: '9de92adf-e507-4ebe-a69b-c8d98fd2678e',
+        apiKey: '',
         lang: 'ru_RU',
         coordorder: 'longlat'
       },
