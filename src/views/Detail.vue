@@ -28,7 +28,7 @@
         >
           <ymap-marker 
             :coords="coords"
-            :marker-id="this.params.id"
+            :marker-id="this.params.locale.id"
             :hint-content="this.params.address.street"
           />
         </yandex-map>
@@ -59,6 +59,9 @@ export default {
       },
       coords: this.params.address.mapPosition.coordinates,
     };
+  },
+  mounted() {
+    window.scrollTo(0,0);
   }
 };
 </script>
